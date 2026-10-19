@@ -1,197 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>College Website</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <style>
-        .hero{
-            background:#0d6efd;
-            color:white;
-            padding:80px 20px;
-            text-align:center;
-        }
-        footer{
-            background:#212529;
-            color:white;
-            padding:15px;
-            text-align:center;
-        }
+      .hero {
+        background: #0d6efd;
+        color: white;
+        padding: 80px 20px;
+        text-align: center;
+      }
+      footer {
+        background: #212529;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
     </style>
-
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="logo.png"
-                        alt="KBT College Logo"
-                        width="45"
-                        height="45"
-                        class="me-2">
-                <span>KBT College</span>
-            </a>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="logo.png"
+            alt="KBT College Logo"
+            width="45"
+            height="45"
+            class="me-2"
+          />
+          <span>KBT College</span>
+        </a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Hero -->
     <section class="hero">
-        <div class="container">
-            <h1>Welcome to KBT College</h1>
-            <p>Learning Today, Leading Tomorrow</p>
-            <button class="btn btn-light">Admission Open</button>
-        </div>
+      <div class="container">
+        <h1>Welcome to KBT College</h1>
+        <p>Learning Today, Leading Tomorrow</p>
+        <button class="btn btn-light">Admission Open</button>
+      </div>
     </section>
     <!-- About College -->
-<section id="about" class="py-5 bg-light">
-
-    <div class="container">
-
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
         <div class="row align-items-center">
+          <!-- College Image -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img
+              src="college.jpg"
+              class="img-fluid rounded shadow"
+              alt="KBT College Campus"
+            />
+          </div>
 
-            <!-- College Image -->
-            <div class="col-md-6 mb-4 mb-md-0">
+          <!-- About Content -->
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3">About KBT College</h2>
 
-                <img src="college.jpg"
-                     class="img-fluid rounded shadow"
-                     alt="KBT College Campus">
+            <p>
+              KBT College is committed to providing quality education, modern
+              learning facilities, and opportunities for students to develop
+              their technical and professional skills.
+            </p>
 
+            <p>
+              Our experienced faculty, modern laboratories, and student-focused
+              learning environment help students prepare for successful careers.
+            </p>
+
+            <!-- Features -->
+            <div class="row mt-4">
+              <div class="col-6 mb-3">
+                <h5>🎓 Experienced Faculty</h5>
+                <p class="small">Learn from skilled and dedicated teachers.</p>
+              </div>
+
+              <div class="col-6 mb-3">
+                <h5>💻 Modern Labs</h5>
+                <p class="small">Practice using modern technology.</p>
+              </div>
+
+              <div class="col-6">
+                <h5>🏆 Excellent Results</h5>
+                <p class="small">Focus on academic and career success.</p>
+              </div>
+
+              <div class="col-6">
+                <h5>💼 Placement Support</h5>
+                <p class="small">Career guidance and placement assistance.</p>
+              </div>
             </div>
 
-            <!-- About Content -->
-            <div class="col-md-6">
-
-                <h2 class="fw-bold mb-3">About KBT College</h2>
-
-                <p>
-                    KBT College is committed to providing quality education,
-                    modern learning facilities, and opportunities for students
-                    to develop their technical and professional skills.
-                </p>
-
-                <p>
-                    Our experienced faculty, modern laboratories, and
-                    student-focused learning environment help students prepare
-                    for successful careers.
-                </p>
-
-                <!-- Features -->
-                <div class="row mt-4">
-
-                    <div class="col-6 mb-3">
-                        <h5>🎓 Experienced Faculty</h5>
-                        <p class="small">Learn from skilled and dedicated teachers.</p>
-                    </div>
-
-                    <div class="col-6 mb-3">
-                        <h5>💻 Modern Labs</h5>
-                        <p class="small">Practice using modern technology.</p>
-                    </div>
-
-                    <div class="col-6">
-                        <h5>🏆 Excellent Results</h5>
-                        <p class="small">Focus on academic and career success.</p>
-                    </div>
-
-                    <div class="col-6">
-                        <h5>💼 Placement Support</h5>
-                        <p class="small">Career guidance and placement assistance.</p>
-                    </div>
-
-                </div>
-
-                <button class="btn btn-primary mt-3">
-                    Read More
-                </button>
-
-            </div>
-
+            <button class="btn btn-primary mt-3">Read More</button>
+          </div>
         </div>
-
-    </div>
-
-</section>
+      </div>
+    </section>
 
     <!-- Courses -->
     <div class="container my-5">
+      <h2 class="text-center mb-4">Our Courses</h2>
 
-        <h2 class="text-center mb-4">Our Courses</h2>
-
-        <div class="row">
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h4>B.Tech</h4>
-                        <p>Computer Engineering </p>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4>B.Tech</h4>
+              <p>Computer Engineering</p>
             </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h4>B.Tech</h4>
-                        <p>Information Technology</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h4>MBA</h4>
-                        <p>Management Program</p>
-                    </div>
-                </div>
-            </div>
-
+          </div>
         </div>
 
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4>B.Tech</h4>
+              <p>Information Technology</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4>MBA</h4>
+              <p>Management Program</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Contact -->
     <div class="container my-5">
+      <h2 class="text-center">Contact Us</h2>
 
-        <h2 class="text-center">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Enter Name" />
+        </div>
 
-        <form>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Enter Email" />
+        </div>
 
-            <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Enter Name">
-            </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            rows="4"
+            placeholder="Message"
+          ></textarea>
+        </div>
 
-            <div class="mb-3">
-                <input type="email" class="form-control" placeholder="Enter Email">
-            </div>
-
-            <div class="mb-3">
-                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-            </div>
-
-            <button class="btn btn-primary">Submit</button>
-
-        </form>
-
+        <button class="btn btn-primary">Submit</button>
+      </form>
     </div>
 
     <!-- Footer -->
     <footer>
-        <p> 2026 KBT College. </p>
+      <p>2026 KBT College.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
+  </body>
 </html>
