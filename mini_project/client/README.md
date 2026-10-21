@@ -64,13 +64,13 @@ Install the following before running the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/kartikipagar9-droid/ITA_54.git
 ```
 
 ### 2. Navigate to the Project Folder
 
 ```bash
-cd "library mini project"
+cd "mini project"
 ```
 
 ### 3. Install Backend Dependencies
@@ -147,7 +147,7 @@ Use the appropriate POST, PUT, or DELETE endpoints defined in `routes/bookRoutes
 
 ## 👩‍💻 Author
 
-**Mayuri Sharad Pakhale**
+**Kartiki Vinod Pagar**
 
 TY B.Tech – Information Technology
 
